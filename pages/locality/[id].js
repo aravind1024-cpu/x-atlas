@@ -41,7 +41,7 @@ export default function LocalityPage() {
       <div className="min-h-screen bg-ink-950 text-ink-100">
         <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 border-b border-white/5 backdrop-blur-sm bg-ink-950/80">
           <Link href="/" className="flex items-center gap-2">
-            <span className="font-display text-lg text-amber-400">X/span>
+            <span className="font-display text-lg text-amber-400">X</span>
             <span className="font-display text-lg text-ink-400">Atlas</span>
           </Link>
           <div className="flex items-center gap-4 text-sm">
