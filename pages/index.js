@@ -65,7 +65,7 @@ export default function Home() {
         {/* NAV */}
         <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 border-b border-white/5 backdrop-blur-sm bg-ink-950/80">
           <Link href="/" className="flex items-center gap-2">
-            <span className="font-display text-xl text-amber-400">X/span>
+            <span className="font-display text-xl text-amber-400">X</span>
             <span className="font-display text-xl text-ink-200">Atlas</span>
           </Link>
           <div className="flex items-center gap-6 text-sm">
@@ -287,7 +287,7 @@ export default function Home() {
         {/* FOOTER */}
         <footer className="border-t border-white/8 py-12 px-6 text-center">
           <div className="font-display text-2xl mb-2">
-            <span className="text-amber-400">X/span>
+            <span className="text-amber-400">X</span>
             <span className="text-ink-600"> Atlas</span>
           </div>
           <p className="text-ink-600 text-sm">
