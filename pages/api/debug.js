@@ -3,5 +3,6 @@ export default function handler(req, res) {
   return res.status(200).json({
     hasKey: !!key,
     keyPrefix: key ? key.substring(0, 12) + '...' : 'NOT FOUND',
+    nodeEnv: process.env.NODE_ENV,
   })
 }
