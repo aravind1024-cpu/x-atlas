@@ -100,7 +100,7 @@ Currently, contributions are logged to console. To persist data:
 ### Option A — Supabase (recommended, free tier)
 
 ```bash
-npm  install @supabase/supabase-js
+npm install @supabase/supabase-js
 ```
 
 Create a `contributions` table in Supabase, then update `/pages/api/contribute.js`:
