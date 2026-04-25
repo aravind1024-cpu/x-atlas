@@ -393,6 +393,10 @@ export default function Home() {
 
                 <p style={{ fontSize: 11, color: 'rgba(238,236,230,0.28)', fontStyle: 'italic', lineHeight: 1.55, marginBottom: 12 }}>{selectedLoc.summary}</p>
 
+                <Link href={`/locality/${selectedLoc.id}`}
+                  style={{ display: 'block', width: '100%', padding: '9px', borderRadius: 999, fontSize: 12, background: '#f59e0b', color: '#0e0c08', fontWeight: 600, textAlign: 'center', textDecoration: 'none', marginBottom: 6 }}>
+                  Apply to jobs · Explore properties →
+                </Link>
                 <button onClick={() => { setChatOpen(true); setInput(`Tell me more about ${selectedLoc.name}`) }}
                   style={{ width: '100%', padding: '9px', borderRadius: 999, fontSize: 12, cursor: 'pointer', border: '1px solid rgba(245,158,11,0.22)', background: 'rgba(245,158,11,0.05)', color: 'rgba(245,158,11,0.8)', transition: 'all 0.15s' }}>
                   Deep dive with AI ↗
