@@ -12,6 +12,17 @@ const LATLNG = {
   sarjapur:        [77.696, 12.899],
   electronic_city: [77.677, 12.845],
   manyata:         [77.597, 13.045],
+  // New localities
+  jayanagar:       [77.593, 12.925],
+  jp_nagar:        [77.585, 12.908],
+  marathahalli:    [77.701, 12.959],
+  bellandur:       [77.679, 12.926],
+  yelahanka:       [77.596, 13.099],
+  rajajinagar:     [77.552, 12.987],
+  malleshwaram:    [77.570, 13.003],
+  bannerghatta:    [77.599, 12.890],
+  kr_puram:        [77.694, 13.002],
+  banashankari:    [77.564, 12.920],
 }
 
 const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN
